@@ -1,0 +1,5 @@
+pitch=1.0
+speed=0.7
+volume=50.0
+format=wav
+language=en

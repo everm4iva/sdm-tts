@@ -1,0 +1,14 @@
+Available commands for SDM-TTS:
+
+-| say [text]   -> speak the text and export to /exported
+-| profile [name] -> switch the vocal profile
+-| pitch [num]  -> adjust the pitch (1.0 is default)
+-| speed [num]  -> adjust the speed (1.0 is default)
+-| volume [num] -> adjust the volume (1.0 is default)
+-| exit         -> leave the program
+
+Example:
+sdm-tts > say hello world
+sdm-tts > pitch 1.2
+sdm-tts > profile deepvoice
+

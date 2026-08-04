@@ -1,0 +1,17 @@
+{
+  "name": "sdm-tts",
+  "author": "@zoeisrad",
+  "description": "super simple manual text-to-speech engine",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everm4iva/sdm-tts.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun main.js"
+  }
+}

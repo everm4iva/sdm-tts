@@ -1,0 +1,8 @@
+hello=hello.mp3
+world=world.mp3
+test=test.mp3
+what=what.mp3
+wha=what.mp3
+are=are.mp3
+you=you.mp3
+yu=you.mp3

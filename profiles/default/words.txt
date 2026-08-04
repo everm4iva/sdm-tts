@@ -1,0 +1,16 @@
+how=how.mp3
+when=when.mp3
+no=no.mp3
+what=what.mp3
+yes=yes.mp3
+you=you.mp3
+hello=hello.mp3
+hi=hi.mp3
+world=world.mp3
+me=me.mp3
+them=them.mp3
+she=she.mp3
+her=her.mp3
+him=him.mp3
+he=he.mp3
+crazy=crazy.mp3
