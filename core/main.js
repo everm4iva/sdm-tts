@@ -1,10 +1,11 @@
+/* ☆==== da main thing====☆*/
 import {loadProfile} from './vocals/profileManager.js';
 import {stitchAudio} from './encoder/stitcher.js';
 import {State} from './vocals/globals.js';
 import { getExportPath, cleanupTempFiles } from './file_export/exporter.js';
 import fs from 'fs/promises';
 
-const Commands = {
+const Commands = { // command.. duuh, can't u read?
 	profile: async (args) => {
 		const pName = args[0];
 		if (await loadProfile(pName)) {
@@ -54,6 +55,7 @@ const Commands = {
 	},
 };
 
+// another command bussiness
 async function handleCommand(input) {
 	const [cmdName, ...args] = input.trim().split(/\s+/);
 	const command = Commands[cmdName.toLowerCase()];
@@ -65,13 +67,14 @@ async function handleCommand(input) {
 	}
 }
 
+// main loop (saying this feeling like python lol)
 async function main() {
 	const args = process.argv.slice(2);
 	
 	if (args.length > 0) {
 		await handleCommand(args.join(' '));
 	} else {
-		console.log('SDM-TTS Optimized Engine Loaded');
+		console.log('SDM-TTS Engine Loaded');
 		console.log('Available: profile, pitch, speed, volume, say, read, exit');
 		
 		while (true) {
