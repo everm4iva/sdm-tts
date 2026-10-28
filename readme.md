@@ -3,7 +3,7 @@
 Welcome to the most simple TTS in existence!
 Basically, you record the sounds, and the program stitches them together. Just like a puzzle but with audio.
 
-This thing is highly experiemental, it can't possibly be used for anything serious...
+This thing is highly experimental, it can't possibly be used for anything serious...
 
 ## Setup
 1. Install [Bun runtine](https://bun.com/)
@@ -15,12 +15,15 @@ This thing is highly experiemental, it can't possibly be used for anything serio
 The program handles one command at a time. Do not try to combine commands on one line.
 
 Correct usage:
+```bash
 sdm-tts > profile default
 sdm-tts > say hello world
+```
 
 Incorrect usage:
+```bash
 sdm-tts > profile default say hello (This will not work!)
-
+```
 > Additionally: don't put things between ""
 
 ## Command List
