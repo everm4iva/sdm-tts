@@ -7,7 +7,7 @@ This thing is highly experimental, it can't possibly be used for anything seriou
 
 ## Setup
 1. Install [Bun runtine](https://bun.com/)
-2. Install ffmpeg or put executable ` in `/core/ffmpeg/`.
+2. Install ffmpeg or put executable in/ `core/ffmpeg/`.
 3. Create or use a sound profile in `/profiles/`, you can easily create your own profile from there.
 4. Run it: `bun core/main.js`.
 
